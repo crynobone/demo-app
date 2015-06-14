@@ -11,11 +11,11 @@
 |
 */
 
-$factory[App\User::class] = function ($faker) {
+$factory[Acme\User::class] = function ($faker) {
     return [
         'email' => $faker->email,
         'password' => str_random(10),
         'remember_token' => str_random(10),
-        'status' => App\User::VERIFIED,
+        'status' => Acme\User::VERIFIED,
     ];
 };

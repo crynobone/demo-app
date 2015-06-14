@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace Acme\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Traits\DomainAwareTrait;

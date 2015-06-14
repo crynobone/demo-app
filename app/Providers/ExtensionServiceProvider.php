@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace Acme\Providers;
 
 use Orchestra\Foundation\Support\Providers\ExtensionServiceProvider as ServiceProvider;
 

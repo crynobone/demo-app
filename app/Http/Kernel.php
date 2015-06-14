@@ -1,4 +1,4 @@
-<?php namespace App\Http;
+<?php namespace Acme\Http;
 
 use Orchestra\Foundation\Http\Kernel as HttpKernel;
 

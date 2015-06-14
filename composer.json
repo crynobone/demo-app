@@ -1,8 +1,7 @@
 {
-	"name": "orchestra/platform",
-	"description": "Orchestra Platform",
+	"name": "orchestra/demo-app",
+	"description": "Orchestra Platform Demo Application",
 	"homepage": "http://orchestraplatform.com/docs/latest/",
-	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
@@ -20,7 +19,7 @@
 			"resources/database"
 		],
 		"psr-4": {
-			"App\\": "app/"
+			"Acme\\": "app/"
 		}
 	},
 	"autoload-dev": {
