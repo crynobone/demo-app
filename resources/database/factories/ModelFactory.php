@@ -1,5 +1,8 @@
 <?php
 
+use Acme\User;
+use Faker\Generator;
+
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -11,11 +14,11 @@
 |
 */
 
-$factory[Acme\User::class] = function ($faker) {
+$factory[User::class] = function (Generator $faker) {
     return [
         'email' => $faker->email,
         'password' => str_random(10),
         'remember_token' => str_random(10),
-        'status' => Acme\User::VERIFIED,
+        'status' => User::VERIFIED,
     ];
 };

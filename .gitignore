@@ -1,6 +1,7 @@
 /node_modules
 /public/packages/*
 /vendor/*
-/.vagrant/*
 vagrant.yml
+Homestead.yaml
+Homestead.json
 .env
